@@ -34,6 +34,8 @@ An EFI that lets you run macOS Monterey on your MSI GV62 7rd gaming laptop!
 
 - The NVIDIA GPU is disabled in macOS, only integrated graphics are available (unfixable). To help conserve battery, it's automatically disabled when you're on macOS.
 - External monitors (VGA, DisplayPort not tested)
+- If you're dual-booting macOS with Windows, and your Windows installation is encrypted with VeraCrypt, choosing Windows using the OpenCore picker won't do anything, and you'll need to use your BIOS' boot menu.
+- The built-in microphone doesn't work, and headphones might not work if they're plugged in when macOS is booting. This might be fixable by using different layout-id's, so TBD.
 
 ## Untested
 
