@@ -17,7 +17,7 @@ An EFI that lets you run macOS Monterey on your MSI GV62 7rd gaming laptop!
 ## Software
 
 - macOS Monterey
-- OpenCore 0.7.5
+- OpenCore 0.7.9
 
 ## What works
 
