@@ -32,7 +32,8 @@ An EFI that lets you run macOS Monterey on your MSI GV62 7rd gaming laptop!
 
 ## What doesn't work (and limitations)
 
-- The NVIDIA GPU is disabled in macOS, only integrated graphics are available (unfixable).
+- The NVIDIA GPU is disabled in macOS, only integrated graphics are available (unfixable). To help conserve battery, it's automatically disabled when you're on macOS.
+- External monitors (VGA, DisplayPort not tested)
 
 ## Untested
 
@@ -55,4 +56,14 @@ Disable the following settings:
 - VT-d
 - Secure Boot
 
-See [https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#intel-bios-settings](here) for the full list.
+See [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#intel-bios-settings) for the full list.
+
+### Create a bootable USB
+
+See [this guide](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/) to create a bootable USB. Instead of putting the unconfigured OpenCore EFI folder to the USB drive, use the one from this repository.
+
+### Boot!
+
+Hold F11 while your laptop starts, and choose your USB drive. Boot the macOS recovery, change the language, open the Disk Utility, format the drive you want to install macOS on as APFS and install. You're done!
+
+See Dortania's [OpenCore Post-Install guide](https://dortania.github.io/OpenCore-Post-Install/) to finish your installation.
