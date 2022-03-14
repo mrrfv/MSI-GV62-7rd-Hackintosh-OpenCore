@@ -1343,7 +1343,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 -wegnoegpu alcid=98</string>
+				<string>-v keepsyms=1 debug=0x100 -wegnoegpu alcid=99</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
