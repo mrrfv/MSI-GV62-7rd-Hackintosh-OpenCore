@@ -2,7 +2,7 @@
 
 An EFI that lets you run macOS Monterey on your MSI GV62 7rd gaming laptop!
 
-**Warning!** This repository is intended for experienced users. You will get very limited support if you don't know what you're doing.
+**Warning!** This repository is intended for experienced users. You will get very limited support if you don't know what you're doing. You're expected to be able to fix most issues you encounter with this EFI by yourself (contributions are still welcome).
 
 ## Hardware
 
@@ -21,21 +21,21 @@ An EFI that lets you run macOS Monterey on your MSI GV62 7rd gaming laptop!
 
 ## What works
 
-- WiFi and Bluetooth
-- Sound (speakers not tested, headphones work without any patches)
-- Touchpad and built-in keyboard
 - Camera
-- Integrated graphics (macOS doesn't support NVIDIA graphics cards - if you play games on your laptop, consider dual-booting).
-- USB (installer only boots from USB 2.0)
+- Sound and built-in mic - speakers not tested, headphones work without any patches.
+- WiFi and Bluetooth - Ethernet untested, but should work.
+- USB - the macOS installer only boots from USB 2.0
+- Touchpad (see below) and built-in keyboard
+- Integrated graphics - macOS doesn't support NVIDIA graphics cards - if you play games on your laptop, consider dual-booting.
 - HiDPI after using [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
 - FileVault
 
 ## What doesn't work (and limitations)
 
 - The NVIDIA GPU is disabled in macOS, only integrated graphics are available (unfixable). To help conserve battery, it's automatically disabled when you're on macOS.
-- External monitors (VGA, DisplayPort not tested)
+- External monitors (VGA doesn't work, DisplayPort not tested)
 - If you're dual-booting macOS with Windows, and your Windows installation is encrypted with VeraCrypt, choosing Windows using the OpenCore picker won't do anything, and you'll need to use your BIOS' boot menu.
-- The built-in microphone doesn't work, and headphones might not work if they're plugged in when macOS is booting. This might be fixable by using different layout-id's, so TBD.
+- The touchpad can get weird sometimes - I recommend using an external mouse.
 
 ## Untested
 
@@ -58,7 +58,7 @@ Disable the following settings:
 - VT-d
 - Secure Boot
 
-See [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#intel-bios-settings) for the full list.
+These options are the bare minimum in order to get macOS to boot. See [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#intel-bios-settings) for the full list.
 
 ### Create a bootable USB
 
