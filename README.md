@@ -35,11 +35,10 @@ An EFI that lets you run macOS Monterey on your MSI GV62 7rd gaming laptop!
 This is my personal bug tracker. I want to daily drive macOS on this laptop, so expect these issues to be fixed sooner or later.
 
 - The NVIDIA GPU is disabled in macOS, only integrated graphics are available (unfixable). To help conserve battery, it's automatically disabled when you're on macOS.
-- External monitors (VGA doesn't work, DisplayPort not tested)
+- External monitors (VGA doesn't work, DisplayPort not tested).
 - If you're dual-booting macOS with Windows, and your Windows installation is encrypted with VeraCrypt, choosing Windows using the OpenCore picker won't do anything, and you'll need to use your BIOS' boot menu.
-- The touchpad can get weird sometimes - I recommend using an external mouse.
-- Shutting down while in macOS won't fully shut down the system. I have yet to find a cause for this, but it seems to also happen in Windows, so I suppose there's something wrong with the BIOS
-- Audio can also get weird, and the EFI I pushed to this repo has the wrong layout id.
+- Shutting down while in macOS won't fully shut down the system. I have yet to find a cause for this, but it seems to also happen in Windows, so I suppose there's something wrong with the BIOS.
+- Audio hasn't been fully tested.
 
 ## Untested
 
