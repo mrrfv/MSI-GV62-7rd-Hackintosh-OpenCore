@@ -4,6 +4,8 @@ An EFI that lets you run macOS Monterey on your MSI GV62 7rd gaming laptop!
 
 **Warning!** This repository is intended for experienced users. You will get very limited support if you don't know what you're doing. You're expected to be able to fix most issues you encounter with this EFI by yourself (contributions are still welcome).
 
+**IMPORTANT:** Windows Defender in [maximum security mode](https://github.com/AndyFul/ConfigureDefender) detects OpenCore's core files as a "severe trojan". You'll have to press "allow on device".
+
 ## Hardware
 
 - Display: 15.6" FHD (1920x1080), IPS
