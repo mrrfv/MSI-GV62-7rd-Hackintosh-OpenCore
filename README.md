@@ -53,15 +53,18 @@ This is my personal bug tracker. I want to daily drive macOS on this laptop, so 
 First, unlock advanced BIOS settings by pressing right shift + right Ctrl + left alt + f2.
 Enable the following settings (you need to find them):
 
-- DVMT Pre-Allocated(iGPU Memory): 64MB
-- FN Key Swap
+- DVMT Pre-Allocated: 64MB
+- FN/Win Key Swap
 - Above 4G decoding
+- Intel SpeedShift
 
 Disable the following settings:
 
 - Fast Boot (optional)
 - VT-d
 - Secure Boot
+- CSM
+- CFG Lock
 
 These options are the bare minimum in order to get macOS to boot. See [here](https://dortania.github.io/OpenCore-Install-Guide/config.plist/kaby-lake.html#intel-bios-settings) for the full list.
 
