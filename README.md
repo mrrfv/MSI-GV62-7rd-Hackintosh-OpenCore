@@ -9,7 +9,7 @@ An EFI that lets you run macOS Monterey on your MSI GV62 7rd gaming laptop!
 ## Hardware
 
 - Display: 15.6" FHD (1920x1080), IPS
-- Graphics: GeForce® GTX 1050 with 4GB GDDR5, Intel HD Graphics 5500
+- Graphics: GeForce® GTX 1050 with 4GB GDDR5, Intel HD Graphics 630
 - BIOS: Aptio V
 - RAM: DDR4 2400MHz, 2 Slots, up to 32GB
 - WiFi: Intel WiFi
